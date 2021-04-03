@@ -1,0 +1,29 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --config ./webpack.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssumitofficial/react-boilerplate.git"
+  },
+  "author": "Sumit H",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssumitofficial/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ssumitofficial/react-boilerplate#readme",
+  "dependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
+    "nodemon": "^2.0.7",
+    "raw-loader": "^4.0.2",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0"
+  }
+}
